@@ -314,6 +314,7 @@ nav li {
     transition: opacity .3s ease-in-out;
     border-radius: 34px;
     opacity: 0;
+    font-family: "Playwrite BE VLG", cursive,ro;
 }
 
 @keyframes glowing {
