@@ -82,6 +82,11 @@ h2 {
 .nav-link {
     font-size: 1rem;
 }
+
+
+.navbar-toggler {
+    background-color:  rgba(255, 255, 255, 0.5);; /* Cambia el color de fondo del botón del menú */
+}
 /* MENU DE TINY TALES  (menu viejo)    */
 .menu {
     display: flex;
@@ -776,7 +781,7 @@ margin-left: 3rem;
 
 
 /* PAGINA NUMERO 2 DEL PROYECTO  what_we_offert  (esta pagina se hizo en su mayoria con bootstrap 
-y los estilos que le agrege yo, esta pagina es una de las responsive )*/
+ y los estilos que le agrege yo, esta pagina es una de las responsive )*/
 .card{
     width: 35rem;
 }
@@ -1089,14 +1094,19 @@ footer .foot1 .footer-button .icon {
 }
 
 .form {
-    background-color:rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.4); /* Fondo blanco con 80% de opacidad */
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     max-width: 500px;
     width: 100%;
-    align-items: center;
-    justify-content: center;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
 }
 
 input[type="text"],
@@ -1109,43 +1119,4 @@ input[type="password"] {
     border-radius: 4px;
     font-size: 16px;
 }
-h2 {
-    margin-bottom: 20px;
-    font-size: 24px;
-    text-align: center;
-    color: #333;
-}
 
-label {
-    display: block;
-    margin-bottom: 8px;
-    font-weight: bold;
-}
-
-input[type="text"],
-input[type="email"],
-textarea {
-    width: 90%;
-    padding: 10px;
-    margin-bottom: 16px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    font-size: 16px;
-    align-items: center;
-    justify-content: center;
-}
-
-button {
-    background-color: #4CAF50;
-    color: #fff;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 4px;
-    font-size: 16px;
-    cursor: pointer;
-    width: 100%;
-}
-
-button:hover {
-    background-color: #45a049;
-}
