@@ -369,9 +369,9 @@ nav li {
         padding: .325rem 1.0rem;
     }
     .grid .item7 {
-        top: -80px;
-        left: 300px;
-        top: -200px;
+        top: -5rem;
+        left: 18.75rem;
+        top: -12.5rem;
     }
     .grid h2 {
         font-size: 1.7em;
@@ -629,7 +629,7 @@ margin: .625rem;
     
     .menu nav ul li {
     font-size: 0.6em;
-    width: 55px;
+    width: 3.4375rem;
     height: auto;
     margin: 0 -0.125rem 0 .125rem; 
     }
@@ -1006,18 +1006,18 @@ footer .foot1 .footer-button .icon {
 
 .robot-image {
     max-width: 100%;
-    max-height: 1800px;
+    max-height: 112.5rem;
     position: relative;
     z-index: 25; /* Asegura que la imagen del robot esté por debajo de los botones */
     left: 50%;
     transform: translateX(-50%);
-    top: -190px;
+    top: -11.875rem;
     pointer-events: none; /* Permite que los clics pasen a través de la imagen */
 }
 
 .row-image {
     max-width: 100%;
-    max-height: 1800px;
+    max-height: 112.5rem;
     position: absolute;
     z-index: 24; /* Asegura que la imagen de fondo esté por debajo de la imagen del robot y los botones */
     left: 50%;
@@ -1049,13 +1049,13 @@ footer .foot1 .footer-button .icon {
 }
 
 .app {
-    max-width: 55px;
+    max-width: 3.4375rem;
 }
 
 .app1 {
-    max-width: 43px;
-    max-height: 43px;
-    margin: 10px;
+    max-width: 2.6875rem;
+    max-height: 2.6875rem;
+    margin: .625rem;
 }
 
 
