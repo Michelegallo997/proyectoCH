@@ -70,7 +70,7 @@ h2 {
 .navbar-custom .btn {
     background: linear-gradient(to top, #3e086e, #a64aed);
     color: var(--color-blanco);
-    border-radius: 1.25rem;
+    border-radius: 1rem;
 }
 
 
