@@ -806,10 +806,13 @@ margin-left: 3rem;
 }
 
 .text{
+    
     text-align: center;
     align-items: center;
     justify-content: center;
     margin: .9375rem;
+    padding: 7px;
+ 
 }
 
 .card {
