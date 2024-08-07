@@ -30,7 +30,7 @@ body {
   
 }
 
-.container {
+.contai {
     background-image: url("imagenes/listpng.png");
     max-width: 120rem;
     overflow: hidden;
@@ -49,10 +49,37 @@ h2 {
 }
 
 /* MENU DE TINY TALES */
+.navbar-custom {
+    background: none;
+  
+    top: 0;
+    width: 100%;
+    z-index: 20;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: var(--color-blanco);
+    
+}
+.navbar-brand img{
+    height: 4.75rem;
+    width: auto;
+}
+
+.navbar-custom .btn {
+    background: linear-gradient(to top, #3e086e, #a64aed);
+    color: var(--color-blanco);
+    border-radius: 1.25rem;
+}
+
 
 .logo_nav img {
     height: 3.75rem;
     width: auto;
+}
+.nav-link {
+    font-size: 1.3rem;
 }
 
 .menu {
@@ -174,22 +201,21 @@ nav li {
 .section_n2 {
     position: relative;
     z-index: 11;
-
     background: linear-gradient(to top, #051571, #000000);
     height: 37.25rem;
-    width: 100%;
-    max-width: 120rem;
+    width: 100vw;
     display: flex;
     align-items: center;
     margin-top: -15rem;
     box-shadow: 0rem .625rem 1.25rem 0rem rgba(0, 0, 0, 0.9);
+    padding: 0; /* Eliminando padding para evitar desbalance */
+    box-sizing: border-box; /* Asegura que el padding no afecte el tamaño total */
 }
 
 .section_n2 img {
     height: 28rem;
     width: auto;
     margin: .625rem 2.5rem .625rem 1.25rem;
- 
 }
 
 .section_n2 p {
@@ -202,6 +228,7 @@ nav li {
     display: grid;
     background-color: rgb(23, 67, 100);
     height: 95rem;
+    width: 100vw; /* Ocupa todo el ancho de la ventana */
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     z-index: 10;
@@ -209,7 +236,8 @@ nav li {
     bottom: 6rem;
     gap: .625rem;
     overflow: hidden;
-    
+    padding: 0; /* Eliminando padding para evitar desbalance */
+    box-sizing: border-box; /* Asegura que el padding no afecte el tamaño total */
 }
 
 
@@ -576,6 +604,9 @@ margin: .625rem;
         .section_n3 .s3_2{
             left: -1.75rem;
         }
+        .nav-link {
+            font-size: 0.9rem;
+        }
     }
 
 
@@ -587,6 +618,7 @@ margin: .625rem;
     }
     .section_n2 {
         padding: 0.25rem;
+        top: -60px;
     }
 
     .section_n2 p {
@@ -704,7 +736,7 @@ display: flex;
     color: #fff;
     text-decoration: none;
     margin-top: 0.625rem;
-    width: 10.5rem;
+    width: 12.5rem;
     border-radius: 2rem;
     
 }
@@ -855,24 +887,7 @@ margin-left: 1rem;
     --color-negro: #000;
 }
 
-.navbar-custom {
-    background: none;
-  
-    top: 0;
-    width: 100%;
-    z-index: 20;
-}
 
-.navbar-custom .navbar-brand,
-.navbar-custom .nav-link {
-    color: var(--color-blanco);
-}
-
-.navbar-custom .btn {
-    background: linear-gradient(to top, #3e086e, #a64aed);
-    color: var(--color-blanco);
-    border-radius: 1.25rem;
-}
 header .button-main {
     display: flex;
     justify-content: center;
