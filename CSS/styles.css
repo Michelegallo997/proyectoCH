@@ -49,6 +49,7 @@ h2 {
 }
 
 /* MENU DE TINY TALES */
+/* camibie la mayorias de menu a los de bootstrap ya que lo queria con el menu desplegable*/
 .navbar-custom {
     background: none;
   
@@ -81,7 +82,7 @@ h2 {
 .nav-link {
     font-size: 1rem;
 }
-
+/* MENU DE TINY TALES  (menu viejo)    */
 .menu {
     display: flex;
     justify-content: space-between;
@@ -117,7 +118,7 @@ nav li {
     border-radius: 1.25rem;
 }
 
-/* SECTION N1 DE PAGINA PRINCIPAL (INDEX) */
+/* SECTION N1 DE PAGINA PRINCIPAL (INDEX) esta pagina es una de las responsive */
 .grid {
     display: grid;
     max-width: 120rem;
@@ -295,7 +296,7 @@ nav li {
     left: -120px;
     text-transform: uppercase;
 
- /* Para ocultar el contenido que se desborda */
+ /* botones de la seccion 3 (los realize gracias aun video que vi en internet me gusto el efecto de colores)  */
 
 }
 .section_n3 .s3_4 .styled-button {
@@ -313,13 +314,13 @@ nav li {
     z-index: 0;
     border-radius: 38px;
     background-color: transparent; /* Agregado */
-    font-family: "Roboto", sans-serif; /* Asegurando que use la fuente */
+    font-family: "Roboto", sans-serif; 
     font-size: 1.3em;
     width: 18.125rem; /* Ancho fijo */
     height: 3.75rem; /* Altura fija */
     top: -1.875rem;
 }
-  
+
 .styled-button::after {
     content: "";
     z-index: -1;
@@ -377,8 +378,8 @@ nav li {
 .section_n3 img {
     width: auto;
     height: 200%;
-    object-fit: cover; /* Para asegurar que la imagen cubra el contenedor */
-    object-position: center; /* Centra la imagen dentro del contenedor */
+    object-fit: cover; 
+    object-position: center; 
 }
 
 
@@ -666,7 +667,9 @@ margin: .625rem;
     margin: 0 -0.125rem 0 .125rem; 
     }
 }
-/* SECTION PIE DE PAGINA (TODAS LAS PAGINAS )*/  
+/* SECTION PIE DE PAGINA (TODAS LAS PAGINAS ) (ya no es para todas las paginas ya que algunas les coloque
+bootstrap asi que tuve que hacer un footer distinto para algunas pagina cuando le agrege bootstrap a todos
+la pagina elimino este footer )*/  
 
 
 footer {
@@ -772,7 +775,8 @@ margin-left: 3rem;
 
 
 
-/* PAGINA NUMERO 2 DEL PROYECTO  what_we_offert*/
+/* PAGINA NUMERO 2 DEL PROYECTO  what_we_offert  (esta pagina se hizo en su mayoria con bootstrap 
+y los estilos que le agrege yo, esta pagina es una de las responsive )*/
 .card{
     width: 35rem;
 }
@@ -849,10 +853,10 @@ margin-left: 3rem;
 }
 
 
-/* PAGINA NUMERO 4 DEL PROYECTO(how read heal)*/
+/* PAGINA NUMERO 4 DEL PROYECTO(how read heal)  (todavia no la he mejorado pero ya esta maquetada )*/
 .How_Read_Heal_1{
 background-color: #567185;
-max-width: 100rem;
+max-width: 100vh;
 height: 25.25rem;
 padding: 6.25rem 0rem 6.25rem 0rem ;
 display: flex;
@@ -866,7 +870,7 @@ margin-left: 1rem;
 }
 .How_Read_Heal_1{
     background-color: #567185;
-    max-width: 100rem;
+    max-width: 100%;
     height: 25.25rem;
     padding: 6.25rem 0rem 6.25rem 0rem ;
     display: flex;
@@ -880,7 +884,9 @@ margin-left: 1rem;
         }
 
 
-/* PAGINA NUMERO 3 DEL PROYECTO(get started)*/
+/* PAGINA NUMERO 3 DEL PROYECTO(get started) (esta pagina hace que me duela la cabeza pero se que se va ver 
+increibre despues de que la termine se que todavia no es responsive tiene dos footer ya que se me danaba el
+ cod del footer por bootstrap asi que lo modifique para que se quedara bien)*/
 :root {
     --color-beige: beige;
     --color-blanco: #fff;
@@ -905,8 +911,8 @@ footer {
     color: white;
     margin-top: auto;
     line-height: 1.25rem;
-    position: relative; /* Asegura que el footer esté sobre el fondo */
-    z-index: 30; /* Asegura que el footer esté por encima del fondo */
+    position: relative; 
+    z-index: 30; 
 }
 
 .footer-button {
@@ -1023,7 +1029,7 @@ footer .foot1 .footer-button .icon {
     max-width: 100%;
     max-height: 112.5rem;
     position: relative;
-    z-index: 25; /* Asegura que la imagen del robot esté por debajo de los botones */
+    z-index: 25; 
     left: 50%;
     transform: translateX(-50%);
     top: -11.875rem;
@@ -1038,7 +1044,7 @@ footer .foot1 .footer-button .icon {
     left: 50%;
     transform: translateX(-50%);
     top: 160px;
-    pointer-events: none; /* Permite que los clics pasen a través de la imagen */
+    pointer-events: none; 
 }
 
 .button-container {
@@ -1050,7 +1056,7 @@ footer .foot1 .footer-button .icon {
     flex-wrap: wrap;
     gap: 1rem;
     justify-content: center;
-    z-index: 30; /* Asegura que los botones estén por encima de las imágenes */
+    z-index: 30; 
 }
 
 .background-overlay {
@@ -1075,3 +1081,71 @@ footer .foot1 .footer-button .icon {
 
 
 /* PAGINA numero 5(formulario)*/
+.cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.form {
+    background-color:rgba(255, 255, 255, 0.4);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #45a049;
+}
