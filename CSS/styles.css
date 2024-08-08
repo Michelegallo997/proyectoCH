@@ -416,7 +416,7 @@ nav li {
         margin: 0rem 1.25rem 0rem 1.25rem ;
     }
     .section_n3 .s3_3 button {
-       left: 50px;
+    left: 50px;
     }
     .menu nav ul li {
         font-size: 1em;
@@ -521,6 +521,10 @@ margin: 10px;
     body {
         max-width: 30rem;
     }
+    .container, .row, .col-12, .card {
+        max-width: 100%;
+       
+    }
     .section_n2{
     flex-direction: column;
     height: 40rem;
@@ -614,8 +618,6 @@ margin: .625rem;
             font-size: 0.9rem;
         }
     }
-
-
 /* Media Query para teléfonos pequeños */
 @media screen and (max-width: 395px) {
 
@@ -810,8 +812,6 @@ margin-left: 3rem;
     text-align: center;
     align-items: center;
     justify-content: center;
-    margin: .9375rem;
-    padding: 7px;
  
 }
 
